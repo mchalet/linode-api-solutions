@@ -165,7 +165,7 @@ $ curl -H "Authorization: Bearer $TOKEN" \
 
 ### --- Perform action on filtered list of Linodes ---
 
-##### Boot all Linodes that are powered off:
+##### Boot all powered off Linodes:
 ```bash
 # First, create filtered list of IDs for all powered off Linodes. Then, iterate over
 # filtered list to boot Linodes.
